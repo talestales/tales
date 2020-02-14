@@ -1,0 +1,2 @@
+var peca;
+peca = prompt;

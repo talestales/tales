@@ -1,2 +1,0 @@
-var peca;
-peca = prompt;

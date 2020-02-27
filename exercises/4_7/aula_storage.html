@@ -44,13 +44,17 @@
     inputFundo.addEventListener("keyup", corFundo);
 
     const inputtexto = document.querySelector("#input-texto");
-    const corDoTexto = document.querySelector(".texto");
+    const Texto = document.querySelector(".texto");
     function corTexto() {
        corDoTexto.style.color = inputtexto.value;
                         }
     inputtexto.addEventListener("keyup", corTexto);
 
-
+    const inputTamtexto = document.querySelector("#input-texto-tamanho");
+    function tamanhoTexto() {
+       Texto.style.fontSize = inputTamtexto.value + "px";
+                        }
+    inputTamtexto.addEventListener("keyup", tamanhoTexto);
 
 
 </script>

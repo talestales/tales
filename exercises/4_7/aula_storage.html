@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+
+
+</style>
+<body>
+
+<h1>Lorem ipsum</h1>
+<div>
+    <h4>
+        Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+    </h4>
+<h5>"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</h5>
+</div>
+<div class="texto">  
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra fringilla mi, eu mollis arcu blandit quis. Morbi non congue justo. Suspendisse id velit lorem. Nulla ut vulputate nibh, sit amet pellentesque urna. Fusce vitae neque non nisl tempus consectetur. Quisque malesuada risus leo, quis lacinia diam efficitur eu. Ut non dolor sodales, iaculis dolor et, posuere diam.<br>
+
+    Sed sit amet nibh a dolor consectetur dapibus eu vitae enim. Pellentesque consequat aliquam sapien, ac accumsan felis blandit aliquet. Aliquam erat volutpat. Sed id mauris quis ligula dignissim vehicula ullamcorper a risus. Duis a ligula elit. Aliquam pretium mi tempor pharetra tempor. Etiam eget iaculis lacus. Sed condimentum nibh vitae est rutrum, vel euismod tortor suscipit. Donec gravida pharetra metus ac sagittis.<br>
+
+    Nunc eget dignissim nisi. Donec porta odio sed tellus sodales, imperdiet gravida risus dictum. Etiam nec varius sapien. Sed convallis convallis sapien vel cursus. Etiam mollis mauris id nisi feugiat cursus. Fusce auctor urna metus, non laoreet est scelerisque sed. Aenean condimentum ornare hendrerit. Mauris ultricies porta mi, id tincidunt augue suscipit quis. Suspendisse sit amet ante gravida, varius sapien id, aliquet ex. Nunc ipsum ligula, vulputate id scelerisque sit amet, tempus eget metus. Donec ac tincidunt mauris, vitae sollicitudin felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque malesuada, lorem at bibendum pulvinar, neque ligula consequat turpis, at tempor enim est quis arcu.<br>
+
+    Maecenas enim nisi, scelerisque in ante id, tristique elementum nibh. Praesent at dui mi. Aliquam lobortis vel neque faucibus dictum. Pellentesque ullamcorper metus ac ex porttitor pharetra. Nulla erat est, gravida eget ipsum vitae, eleifend malesuada lorem. Suspendisse potenti. Curabitur vel blandit ex. Morbi mollis nisl nec rutrum congue.<br>
+
+    Integer non rhoncus urna. Nulla pellentesque ornare mauris id interdum. Etiam cursus velit non lobortis facilisis. Duis dignissim malesuada ipsum, et venenatis elit varius at. Donec aliquam tortor nibh, id gravida ligula aliquam eget. Nullam imperdiet porta enim, ut scelerisque risus hendrerit iaculis. Ut eu tortor mi. Suspendisse et mi non nisi condimentum imperdiet ac quis lectus. Integer gravida purus convallis, pellentesque enim et, ullamcorper nulla. Donec velit nunc, condimentum sed dui porttitor, auctor posuere purus. Vivamus commodo tincidunt ultrices. Aliquam imperdiet vehicula erat, at finibus tellus viverra eu. Phasellus ultrices vel enim a efficitur. Nunc nisi sapien, imperdiet a lectus vitae, volutpat tristique augue. Vivamus in tempus felis, nec mollis purus. Donec placerat purus orci, sit amet congue tortor pretium a.<br>
+</div>
+<br>
+    <input placeholder="cor de fundo" type=text id="input-fundo"> <br>
+    <br>
+    <input placeholder="cor do texto" type=text id="input-texto"><br>
+    <br>
+    <input placeholder="tamanho texto" type=text id="input-texto-tamanho"><br>
+    <br>
+    <input placeholder="tamanho espaçamento" type=text id="input-espaco"><br>
+    <br>
+    <input placeholder="fonte" type=text id="input-font"><br>
+
+<script>
+    const inputFundo = document.querySelector("#input-fundo");
+    function corFundo() {
+        document.body.style.backgroundColor = inputFundo.value;
+                        }
+    inputFundo.addEventListener("keyup", corFundo);
+
+    const inputtexto = document.querySelector("#input-texto");
+    const corDoTexto = document.querySelector(".texto");
+    function corTexto() {
+       corDoTexto.style.color = inputtexto.value;
+                        }
+    inputtexto.addEventListener("keyup", corTexto);
+
+
+
+
+</script>
+
+</body>
+</html>

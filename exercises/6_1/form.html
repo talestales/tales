@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+  <h1>Currículo</h1>
+
+  <form action="">
+    <fieldset>
+      <legend>Dados Pessoais</legend>
+      <label for="fname">Nome:</label>
+      <input type="text" id="name" name="name" maxlength="40" required><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" maxlength="50" required><br><br>
+      <label for="CPF">CPF:</label>
+      <input type="text" name="CPF" maxlength="11" required><br><br>
+      <label for="Cidade">Cidade:</label>
+      <input type="text" name="Cidade" maxlength="28" required><br><br>
+      <label for="Estado">Estado:</label>
+      <select id="Estado" name="Estado" required>
+        <option value="">Selecione</option>
+        <option value="AC">Acre</option>
+        <option value="AL">Alagoas</option>
+        <option value="AP">Amapá</option>
+        <option value="AM">Amazonas</option>
+        <option value="BA">Bahia</option>
+        <option value="CE">Ceará</option>
+        <option value="DF">Distrito Federal</option>
+        <option value="ES">Espírito Santo</option>
+        <option value="GO">Goiás</option>
+        <option value="MA">Maranhão</option>
+        <option value="MT">Mato Grosso</option>
+        <option value="MS">Mato Grosso do Sul</option>
+        <option value="MG">Minas Gerais</option>
+        <option value="PA">Pará</option>
+        <option value="PB">Paraíba</option>
+        <option value="PR">Paraná</option>
+        <option value="PE">Pernambuco</option>
+        <option value="PI">Piauí</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="RN">Rio Grande do Norte</option>
+        <option value="RS">Rio Grande do Sul</option>
+        <option value="RO">Rondônia</option>
+        <option value="RR">Roraima</option>
+        <option value="SC">Santa Catarina</option>
+        <option value="SP">São Paulo</option>
+        <option value="SE">Sergipe</option>
+        <option value="TO">Tocantins</option>
+      </select><br><br>
+      <span>Tipo da Residência</span>
+      <input type="radio" name="Tipo" id="casa" value="casa" required>
+      <label for="casa">Casa</label>
+      <input type="radio" name="Tipo" id="apartamento" value="apartamento" required>
+      <label for="apartamento">Apartamento</label><br><br>
+    </fieldset>
+    <fieldset>
+      <legend>Última Experiência</legend>
+      <label for="resumo">Resumo do Currículo</label><br>
+      <textarea maxlength="1000" cols="30" rows="10" name="resumo" required></textarea><br>
+      <label for="cargo">Cargo</label>
+      <input type="text" name="cargo" maxlength="40" required><br>
+      <label for="descricao_cargo">Descrição do Cargo</label>
+      <input type="text" name="descricao_cargo" maxlength="500" required><br>
+      <label for="data">Data de Início (dd/mm/aaaa)</label>
+      <input type="text" required>
+
+            
+
+
+
+
+    </fieldset>
+
+    <input type="submit" value="Submit">
+  </form>
+
+</body>
+
+</html>
